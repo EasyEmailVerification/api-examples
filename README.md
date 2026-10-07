@@ -47,6 +47,16 @@ curl --get "https://api.easyemailverification.com/v1/verify" \
 | Java | [`examples/VerifyEmail.java`](examples/VerifyEmail.java) |
 | Go | [`examples/go.go`](examples/go.go) |
 
+## Official libraries
+
+| Language | Install | Repository |
+|---|---|---|
+| Node.js | `npm install easyemailverification` | [easyemailverification-node](https://github.com/EasyEmailVerification/easyemailverification-node) |
+| Python | `pip install easyemailverification` | [easyemailverification-python](https://github.com/EasyEmailVerification/easyemailverification-python) |
+| PHP | `composer require easyemailverification/php-sdk` | [easyemailverification-php](https://github.com/EasyEmailVerification/easyemailverification-php) |
+
+The examples below call the REST API directly, for any language.
+
 Complete signup validation examples (format check, mailbox check, decision) for Node.js, Python, Spring Boot and PHP are in [`guides/`](guides/), with the matching guides on the website.
 
 All examples use the official endpoint:
