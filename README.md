@@ -47,6 +47,8 @@ curl --get "https://api.easyemailverification.com/v1/verify" \
 | Java | [`examples/VerifyEmail.java`](examples/VerifyEmail.java) |
 | Go | [`examples/go.go`](examples/go.go) |
 
+Complete signup validation examples (format check, mailbox check, decision) for Node.js, Python, Spring Boot and PHP are in [`guides/`](guides/), with the matching guides on the website.
+
 All examples use the official endpoint:
 
 ```text
